@@ -43,6 +43,16 @@
 
 <!-- CHAT JAVACRIPT -->
 <script>
+
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBL5a4_imFU0MR7KXd012zg_yidgA3yLFs",
+    authDomain: "eater201600601.firebaseapp.com",
+    databaseURL: "https://eater201600601.firebaseio.com",
+    storageBucket: "eater201600601.appspot.com",
+  };
+  firebase.initializeApp(config);
+
   // CREATE A REFERENCE TO FIREBASE
   var messagesRef = new Firebase('https://eater201600601.firebaseio.com/');
 
